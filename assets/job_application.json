@@ -1,0 +1,32 @@
+{
+    "jobId": "12345",
+    "title": "Software Developer",
+    "company": "Tech Solutions",
+    "location": "San Francisco, CA",
+    "salary": 120000,
+    "description": "We are looking for a passionate Software Developer..We are looking for a passionate Software Developer...We are looking for a passionate Software Developer....",
+    "requirements": [
+      "Strong understanding and hands-on experience with Flutter framework and Dart programming language.",
+      "Familiarity with state management solutions such as Provider, Riverpod, or Bloc.",
+      "Experience in building and deploying cross-platform applications for both iOS and Android.",
+      "Solid experience in integrating mobile applications with RESTful APIs.",
+      "Ability to work with backend services and ensure seamless data exchange between the frontend and backend."
+    ],
+    "applicants": [
+      {
+        "applicantId": "a1",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "resume": "https://example.com/resume/johndoe.pdf",
+        "coverLetter": "I am very excited about this opportunity..."
+      },
+      {
+        "applicantId": "a2",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "resume": "https://example.com/resume/janesmith.pdf",
+        "coverLetter": "With my extensive experience..."
+      }
+    ]
+  }
+  
