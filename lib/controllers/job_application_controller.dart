@@ -27,3 +27,5 @@ class JobApplicationController extends GetxController {
     jobApplication.value = JobApplication.fromJson(jsonResponse);
   }
 }
+
+final jobFilter  = ["UI Designer","UX Designer","Front End","Java Developer","Manager"];

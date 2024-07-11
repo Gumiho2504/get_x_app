@@ -6,6 +6,7 @@ import 'package:get_x_app/models/job_application.dart';
 import 'package:get_x_app/page/JobApplicationScreen.dart';
 import 'package:get_x_app/page/alljobs_page.dart';
 import 'package:get_x_app/page/jobsdetail_page.dart';
+import 'package:get_x_app/page/profile-page.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:iconsax/iconsax.dart';
 
@@ -67,23 +68,28 @@ class _HomePageState extends State<HomePage> {
                           "https://ajip.ai/storage/sitesetting_images/thumb/ajip-1704705721-725.png")),
                   Stack(
                     children: [
-                      Container(
-                        width: 60,
-                        height: 60,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(15),
-                            color: Colors.white,
-                            image: DecorationImage(
-                                image: NetworkImage(
-                                    "https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg")),
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.black.withOpacity(0.2),
-                                offset: Offset.zero,
-                                blurRadius: 0.1,
-                                spreadRadius: 0.1,
-                              )
-                            ]),
+                      GestureDetector(
+                        onTap: (){
+                          Navigator.of(context).push(MaterialPageRoute(builder: (context)=> ProfilePage()));
+                        },
+                        child: Container(
+                          width: 60,
+                          height: 60,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(15),
+                              color: Colors.white,
+                              image: DecorationImage(
+                                  image: NetworkImage(
+                                      "https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg")),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black.withOpacity(0.2),
+                                  offset: Offset.zero,
+                                  blurRadius: 0.1,
+                                  spreadRadius: 0.1,
+                                )
+                              ]),
+                        ),
                       ),
                       Positioned(
                           right: 0,
